@@ -1,7 +1,7 @@
 
 ---
 
-## 🛠️ Day 14: Create and Provision Managed Disks in Azure
+## 🛠️ Day 15: Create and Provision Managed Disks in Azure
 
 ### 📋 Scenario & Goal
 
