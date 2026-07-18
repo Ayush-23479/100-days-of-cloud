@@ -10,7 +10,7 @@ Over 100 consecutive days, I am tackling 50 structured tasks in **Microsoft Azur
 
 | Phase | Cloud Provider | Focus | Progress |
 | :--- | :--- | :--- | :--- |
-| **Phase 1** | 🟦 Microsoft Azure | Compute, Networking, Core Storage & Security | `01 / 50 Days` 🔄 |
+| **Phase 1** | 🟦 Microsoft Azure | Compute, Networking, Core Storage & Security | `27 / 50 Days` 🔄 |
 | **Phase 2** | 🟧 Amazon Web Services | Core Infrastructure, IAM, Automation & K8s | `00 / 50 Days` ⏳ |
 
 ---
@@ -21,32 +21,32 @@ Over 100 consecutive days, I am tackling 50 structured tasks in **Microsoft Azur
 <summary>🟦 <b>Phase 1: Microsoft Azure (Days 1 - 50)</b></summary>
 
 - [x] **Day 1**: Create SSH Key Pair for Azure Virtual Machine *(Completed: 2026-06-19)*
-- [ ] **Day 2**: Create an Azure Virtual Machine
-- [ ] **Day 3**: Create VM using Azure CLI
-- [ ] **Day 4**: Create a Virtual Network (VNet) in Azure
-- [ ] **Day 5**: Create a Virtual Network (IPv4) in Azure
-- [ ] **Day 6**: Create a Subnet in Azure Virtual Network
-- [ ] **Day 7**: Create a Public IP Address for Azure VM
-- [ ] **Day 8**: Attach Managed Disk to Azure Virtual Machine
-- [ ] **Day 9**: Attach Network Interface Card (NIC) to Azure Virtual Machine
-- [ ] **Day 10**: Attach Public IP to Azure Virtual Machine
-- [ ] **Day 11**: Change Azure Virtual Machine Size Using Console
-- [ ] **Day 12**: Add and Manage Tags for Azure Virtual Machines
-- [ ] **Day 13**: SSH into an Azure Virtual Machine
-- [ ] **Day 14**: Create and Attach Managed Disks in Azure
-- [ ] **Day 15**: Create and Configure Network Security Group (NSG) in Azure
-- [ ] **Day 16**: Create a Private Azure Blob Storage Container
-- [ ] **Day 17**: Create a Public Azure Blob Storage Container
-- [ ] **Day 18**: Copy Data to an Azure Blob Storage Container
-- [ ] **Day 19**: Convert Public Azure Blob Container to Private
-- [ ] **Day 20**: Deploy Azure Resources Using ARM Template
-- [ ] **Day 21**: Assigning Public IP to Virtual Machines
-- [ ] **Day 22**: Configuring Instances with User Data
-- [ ] **Day 23**: Automating User Data Configuration Using the CLI
-- [ ] **Day 24**: Securing Virtual Machine SSH Access
-- [ ] **Day 25**: Expanding and Managing Disk Storage
-- [ ] **Day 26**: Deploying Virtual Machines in a Public Virtual Network
-- [ ] **Day 27**: Deploying Virtual Machines in a Private Virtual Network
+- [x] **Day 2**: Create an Azure Virtual Machine
+- [x] **Day 3**: Create VM using Azure CLI
+- [x] **Day 4**: Create a Virtual Network (VNet) in Azure
+- [x] **Day 5**: Create a Virtual Network (IPv4) in Azure
+- [x] **Day 6**: Create a Subnet in Azure Virtual Network
+- [x] **Day 7**: Create a Public IP Address for Azure VM
+- [x] **Day 8**: Attach Managed Disk to Azure Virtual Machine
+- [x] **Day 9**: Attach Network Interface Card (NIC) to Azure Virtual Machine
+- [x] **Day 10**: Attach Public IP to Azure Virtual Machine
+- [x] **Day 11**: Change Azure Virtual Machine Size Using Console
+- [x] **Day 12**: Add and Manage Tags for Azure Virtual Machines
+- [x] **Day 13**: SSH into an Azure Virtual Machine
+- [x] **Day 14**: Create and Attach Managed Disks in Azure
+- [x] **Day 15**: Create and Configure Network Security Group (NSG) in Azure
+- [x] **Day 16**: Create a Private Azure Blob Storage Container
+- [x] **Day 17**: Create a Public Azure Blob Storage Container
+- [x] **Day 18**: Copy Data to an Azure Blob Storage Container
+- [x] **Day 19**: Convert Public Azure Blob Container to Private
+- [x] **Day 20**: Deploy Azure Resources Using ARM Template
+- [x] **Day 21**: Assigning Public IP to Virtual Machines
+- [x] **Day 22**: Configuring Instances with User Data
+- [x] **Day 23**: Automating User Data Configuration Using the CLI
+- [x] **Day 24**: Securing Virtual Machine SSH Access
+- [x] **Day 25**: Expanding and Managing Disk Storage
+- [x] **Day 26**: Deploying Virtual Machines in a Public Virtual Network
+- [x] **Day 27**: Deploying Virtual Machines in a Private Virtual Network
 - [ ] **Day 28**: Troubleshooting Public Virtual Network Configurations
 - [ ] **Day 29**: Working with Azure Container Registry (ACR)
 - [ ] **Day 30**: Create Azure SQL Database
