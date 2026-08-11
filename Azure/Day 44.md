@@ -1,4 +1,5 @@
 
+
 # Day 44: Integrating Azure Event Hub with Virtual Machines
 
 Centralized log ingestion pipeline streaming logs from an Azure VM (`datacenter-vm`) to Azure Event Hubs (`datacenter-namespace` / `datacenter-hub`).
@@ -18,6 +19,7 @@ Centralized log ingestion pipeline streaming logs from an Azure VM (`datacenter-
 
 ## 🚀 Setup Commands (Azure CLI)
 
+```bash
 # 1. Environment Variables
 RESOURCE_GROUP=$(az group list --query "[0].name" -o tsv)
 NAMESPACE="datacenter-namespace"
@@ -25,14 +27,33 @@ EVENT_HUB="datacenter-hub"
 VM_NAME="datacenter-vm"
 
 # 2. Create Event Hub Namespace & Hub
-az eventhubs namespace create --name $NAMESPACE --resource-group$RESOURCE_GROUP --location eastus --sku Standard --enable-auto-inflate true --maximum-throughput-units 2
-az eventhubs eventhub create --name $EVENT_HUB --namespace-name $NAMESPACE --resource-group$RESOURCE_GROUP
+az eventhubs namespace create \
+  --name $NAMESPACE \
+  --resource-group $RESOURCE_GROUP \
+  --location eastus \
+  --sku Standard \
+  --enable-auto-inflate true \
+  --maximum-throughput-units 2
+
+az eventhubs eventhub create \
+  --name $EVENT_HUB \
+  --namespace-name $NAMESPACE \
+  --resource-group $RESOURCE_GROUP
 
 # 3. Retrieve Connection String & VM IP
-EH_CONN_STRING=$(az eventhubs namespace authorization-rule keys list --resource-group $RESOURCE_GROUP --namespace-name$NAMESPACE --name RootManageSharedAccessKey --query primaryConnectionString -o tsv)
-VM_PUBLIC_IP=$(az vm show --resource-group $RESOURCE_GROUP --name$VM_NAME --show-details --query publicIps -o tsv)
+EH_CONN_STRING=$(az eventhubs namespace authorization-rule keys list \
+  --resource-group $RESOURCE_GROUP \
+  --namespace-name $NAMESPACE \
+  --name RootManageSharedAccessKey \
+  --query primaryConnectionString -o tsv)
 
+VM_PUBLIC_IP=$(az vm show \
+  --resource-group $RESOURCE_GROUP \
+  --name $VM_NAME \
+  --show-details \
+  --query publicIps -o tsv)
 
+```
 
 ---
 
@@ -40,16 +61,17 @@ VM_PUBLIC_IP=$(az vm show --resource-group $RESOURCE_GROUP --name$VM_NAME --show
 
 SSH into `datacenter-vm` (`ssh azureuser@$VM_PUBLIC_IP`) and execute:
 
-
-# Set Primary Connection String
+```bash
+# Set Primary Connection String (Replace with your actual string)
 export CONN_STR="<YOUR_PRIMARY_CONNECTION_STRING>"
 
-# Overwrite send_logs.py
-cat << EOF > /home/azureuser/send_logs.py
+# Create/Overwrite send_logs.py
+cat << 'EOF' > /home/azureuser/send_logs.py
+import os
 import time
 from azure.eventhub import EventHubProducerClient, EventData
 
-CONNECTION_STR = "$CONN_STR"
+CONNECTION_STR = os.getenv("CONN_STR")
 EVENTHUB_NAME = "datacenter-hub"
 
 def send_logs():
@@ -74,7 +96,7 @@ python3 /home/azureuser/send_logs.py
 python3 /home/azureuser/send_logs.py
 python3 /home/azureuser/send_logs.py
 
-
+```
 
 ---
 
@@ -83,7 +105,3 @@ python3 /home/azureuser/send_logs.py
 1. Go to **Azure Portal** > **Event Hubs Namespaces** > `datacenter-namespace` > `datacenter-hub`.
 2. Inspect the **Overview** dashboard to confirm **Incoming Messages > 0**.
 3. **Note:** Allow 5–10 minutes for Azure Monitor metrics to reflect before submitting automated checks.
-
-```
-
-```
