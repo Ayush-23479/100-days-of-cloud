@@ -10,7 +10,7 @@ Over 100 consecutive days, I am tackling 50 structured tasks in **Microsoft Azur
 
 | Phase | Cloud Provider | Focus | Progress |
 | :--- | :--- | :--- | :--- |
-| **Phase 1** | 🟦 Microsoft Azure | Compute, Networking, Core Storage & Security | `27 / 50 Days` 🔄 |
+| **Phase 1** | 🟦 Microsoft Azure | Compute, Networking, Core Storage & Security | `45 / 50 Days` 🔄 |
 | **Phase 2** | 🟧 Amazon Web Services | Core Infrastructure, IAM, Automation & K8s | `00 / 50 Days` ⏳ |
 
 ---
