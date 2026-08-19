@@ -10,7 +10,7 @@ Over 100 consecutive days, I am tackling 50 structured tasks in **Microsoft Azur
 
 | Phase | Cloud Provider | Focus | Progress |
 | :--- | :--- | :--- | :--- |
-| **Phase 1** | 🟦 Microsoft Azure | Compute, Networking, Core Storage & Security | `45 / 50 Days` 🔄 |
+| **Phase 1** | 🟦 Microsoft Azure | Compute, Networking, Core Storage & Security | `50 / 50 Days` 🔄 |
 | **Phase 2** | 🟧 Amazon Web Services | Core Infrastructure, IAM, Automation & K8s | `00 / 50 Days` ⏳ |
 
 ---
@@ -47,29 +47,29 @@ Over 100 consecutive days, I am tackling 50 structured tasks in **Microsoft Azur
 - [x] **Day 25**: Expanding and Managing Disk Storage
 - [x] **Day 26**: Deploying Virtual Machines in a Public Virtual Network
 - [x] **Day 27**: Deploying Virtual Machines in a Private Virtual Network
-- [ ] **Day 28**: Troubleshooting Public Virtual Network Configurations
-- [ ] **Day 29**: Working with Azure Container Registry (ACR)
-- [ ] **Day 30**: Create Azure SQL Database
-- [ ] **Day 31**: Deploying and Managing a Web Application
-- [ ] **Day 32**: Synchronizing Containers Using the CLI
-- [ ] **Day 33**: Integrating Virtual Machines with Application Load Balancer
-- [ ] **Day 34**: Enabling Internet Connectivity for Virtual Machines
-- [ ] **Day 35**: Configuring Virtual Network Peering
-- [ ] **Day 36**: Managing Storage Lifecycle in Azure
-- [ ] **Day 37**: Setting Up MySQL on a Virtual Machine in Azure
-- [ ] **Day 38**: Running Containers on Azure Virtual Machines
-- [ ] **Day 39**: Deploying a Static Website Using Containers on Azure
-- [ ] **Day 40**: Managing Secrets with Azure Key Vault
-- [ ] **Day 41**: Working with Azure Table Storage
-- [ ] **Day 42**: Backup and Delete Azure Storage Blob Container
-- [ ] **Day 43**: Configuring Azure VM with Application Gateway
-- [ ] **Day 44**: Integrating Azure Event Hub with Virtual Machines
-- [ ] **Day 45**: Azure Kubernetes Service (AKS) Setup and Management
-- [ ] **Day 46**: EventHub to Blob Storage Integration Setup
-- [ ] **Day 47**: SQL Database Migration and Setup
-- [ ] **Day 48**: VM and ACR Integration for Storage
-- [ ] **Day 49**: VM Setup with Web Storage Integration
-- [ ] **Day 50**: VM Setup and Configuration for Azure Application Gateway
+- [x] **Day 28**: Troubleshooting Public Virtual Network Configurations
+- [x] **Day 29**: Working with Azure Container Registry (ACR)
+- [x] **Day 30**: Create Azure SQL Database
+- [x] **Day 31**: Deploying and Managing a Web Application
+- [x] **Day 32**: Synchronizing Containers Using the CLI
+- [x] **Day 33**: Integrating Virtual Machines with Application Load Balancer
+- [x] **Day 34**: Enabling Internet Connectivity for Virtual Machines
+- [x] **Day 35**: Configuring Virtual Network Peering
+- [x] **Day 36**: Managing Storage Lifecycle in Azure
+- [x] **Day 37**: Setting Up MySQL on a Virtual Machine in Azure
+- [x] **Day 38**: Running Containers on Azure Virtual Machines
+- [x] **Day 39**: Deploying a Static Website Using Containers on Azure
+- [x] **Day 40**: Managing Secrets with Azure Key Vault
+- [x] **Day 41**: Working with Azure Table Storage
+- [x] **Day 42**: Backup and Delete Azure Storage Blob Container
+- [x] **Day 43**: Configuring Azure VM with Application Gateway
+- [x] **Day 44**: Integrating Azure Event Hub with Virtual Machines
+- [x] **Day 45**: Azure Kubernetes Service (AKS) Setup and Management
+- [x] **Day 46**: EventHub to Blob Storage Integration Setup
+- [x] **Day 47**: SQL Database Migration and Setup
+- [x] **Day 48**: VM and ACR Integration for Storage
+- [x] **Day 49**: VM Setup with Web Storage Integration
+- [x] **Day 50**: VM Setup and Configuration for Azure Application Gateway
 </details>
 
 <details>
