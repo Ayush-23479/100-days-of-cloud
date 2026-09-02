@@ -11,7 +11,7 @@ Over 100 consecutive days, I am tackling 50 structured tasks in **Microsoft Azur
 | Phase | Cloud Provider | Focus | Progress |
 | :--- | :--- | :--- | :--- |
 | **Phase 1** | 🟦 Microsoft Azure | Compute, Networking, Core Storage & Security | `50 / 50 Days` 🔄 |
-| **Phase 2** | 🟧 Amazon Web Services | Core Infrastructure, IAM, Automation & K8s | `00 / 50 Days` ⏳ |
+| **Phase 2** | 🟧 Amazon Web Services | Core Infrastructure, IAM, Automation & K8s | `03 / 50 Days` ⏳ |
 
 ---
 
@@ -75,9 +75,9 @@ Over 100 consecutive days, I am tackling 50 structured tasks in **Microsoft Azur
 <details>
 <summary>🟧 <b>Phase 2: Amazon Web Services (Days 51 - 100)</b></summary>
 
-- [ ] **Day 51**: Create Key Pair
-- [ ] **Day 52**: Create Security Group
-- [ ] **Day 53**: Create Subnet
+- [x] **Day 51**: Create Key Pair
+- [x] **Day 52**: Create Security Group
+- [x] **Day 53**: Create Subnet
 - [ ] **Day 54**: Enable Versioning for S3 Bucket
 - [ ] **Day 55**: Create GP3 Volume
 - [ ] **Day 56**: Launch EC2 Instance
